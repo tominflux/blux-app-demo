@@ -1,0 +1,23 @@
+.text-block {
+    padding: 22pt;
+    padding-left: 88pt;
+    padding-right: 88pt;
+}
+@media (max-width: 767px) {
+    .text-block {
+        padding-left: 11pt;
+        padding-right: 11pt;
+    }
+}
+.text-block--left {
+    text-align: left;
+}
+.text-block--center {
+    text-align: center;
+}
+.text-block--right {
+    text-align: right;
+}
+.text-block--justified {
+    text-align: justify;
+}

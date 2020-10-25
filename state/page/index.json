@@ -1,0 +1,31 @@
+{
+    "id": "/",
+    "type": "DEFAULT",
+    "blocks": [
+        {
+            "id": "b25sx",
+            "type": "text",
+            "alignment": "CENTER",
+            "rawContentState": {
+                "blocks": [
+                    {
+                        "key": "9lc32",
+                        "text": "Welcome to blux-demo-app.",
+                        "type": "paragraph",
+                        "depth": 0,
+                        "inlineStyleRanges": [
+                            {
+                                "offset": 0,
+                                "length": 27,
+                                "style": "BOLD"
+                            }
+                        ],
+                        "entityRanges": [],
+                        "data": {}
+                    }
+                ],
+                "entityMap": {}
+            }
+        }
+    ]
+}
