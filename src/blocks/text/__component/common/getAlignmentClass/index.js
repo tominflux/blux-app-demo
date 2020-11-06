@@ -1,4 +1,4 @@
-import { TEXT_ALIGNMENT_STATES } from "../../../redux/actionTypes"
+import TEXT_ALIGNMENT_STATES from '../../../common/util/alignmentStates'
 
 const getAlignmentClass = (alignment) => {
     switch (alignment) {
