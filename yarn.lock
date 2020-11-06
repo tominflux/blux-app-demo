@@ -51,11 +51,11 @@ asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-"blux-app@file:../blux-app":
+blux-app@^0.1.23:
   version "0.1.23"
+  resolved "https://registry.yarnpkg.com/blux-app/-/blux-app-0.1.23.tgz#78dcf16a052bfedd3425f595c29fab66fd72116e"
+  integrity sha512-tbG9A2tuZtppRtY4yWkcH2jAv6fQgU4hoOslPhVtB7spC00FwUQJFLrKQYP+yizTd1oTGxMsaaU79R4/fhZGEw==
   dependencies:
-    immutable "^4.0.0-rc.12"
-    prop-types "^15.7.2"
     react "^16.13.1"
     react-dom "^16.13.1"
     react-redux "^7.2.1"

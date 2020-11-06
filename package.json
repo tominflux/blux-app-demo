@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "blux-app": "file:../blux-app",
+    "blux-app": "^0.1.23",
     "draft-js": "^0.11.7",
     "immutable": "^4.0.0-rc.12",
     "prop-types": "^15.7.2",
