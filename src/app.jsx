@@ -5,7 +5,6 @@ import TextBlock from './blocks/text'
 import runApp from 'blux-app'
 import NotFound from './components/notFound'
 
-
 const demoApp = {
     components: {
         header: () => <h1>Hello World</h1>,
@@ -22,4 +21,4 @@ const demoApp = {
     isDev: true
 }
 
-runApp(demoApp)
+runApp(demoApp, process.env.IS_CMS)
