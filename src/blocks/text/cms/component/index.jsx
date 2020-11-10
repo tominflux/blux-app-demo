@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 // import getElementPosition from '../../../../util/getElementPosition'
 import getAlignmentClass from '../../common/util/getAlignmentClass'
 import { Editor } from 'draft-js'
+import classConcat from '../../../../util/classConcat'
+import getBlockStyles from '../../common/util/getBlockStyles'
+import '../../common/styles.css'
 
 const TextComponentCms = ({
     editorState,
@@ -51,7 +54,7 @@ const TextComponentCms = ({
             <Editor
                 editorState={editorState}
                 onChange={editorState => updateEditorState(editorState)}
-                blockStyleFn={blockStyles}
+                blockStyleFn={getBlockStyles}
             />
         </div>
     )
