@@ -10,7 +10,7 @@ const demoApp = {
         header: () => <h1>Hello World</h1>,
         footer: () => null,
         loading: Loading,
-        notFound: NotFound
+        notFound: NotFound,
     },
     pages: [
         DefaultPage
@@ -18,6 +18,7 @@ const demoApp = {
     blocks: [
         TextBlock
     ],
+    cms: () => import('./cms'),
     isDev: true
 }
 
