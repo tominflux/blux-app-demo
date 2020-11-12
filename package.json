@@ -18,7 +18,9 @@
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-externals": "^0.5.1"
   },
   "scripts": {
     "dev": "blux-gen dev",
