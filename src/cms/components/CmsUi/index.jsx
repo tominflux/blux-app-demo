@@ -8,7 +8,7 @@ const CmsUi = ({prop1}) => {
         
     })
     // Render
-    return <p>Hello World</p>
+    return null
 }
 
 export default CmsUi
